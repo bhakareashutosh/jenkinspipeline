@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('SCM for Java Code') {
+        stage ('SCM for Java Code - TESTING THE LOGIC') {
             steps{
                 git credentialsId: 'f52176a1-c3c7-4208-9b4b-adba5fb3e0e4', url: 'https://github.com/ashutoshbhakare/simpleMavenJunit'
                 echo 'Polling to Developers SCM'
